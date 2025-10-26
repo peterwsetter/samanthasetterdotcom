@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Dr. Jane Smith - Computer Science researcher specializing in accessible and intelligent systems">
+    <title>Dr. Jane Smith - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section with Profile -->
+    <header class="header">
+        <img src="https://via.placeholder.com/250" alt="Profile photo of Dr. Jane Smith" class="header__image">
+        <div class="header__content">
+            <h1 class="header__name">Dr. Jane Smith</h1>
+            <p class="header__credentials">PhD in Computer Science, MS in AI</p>
+            <p class="header__tagline">Building accessible and intelligent systems</p>
+            <nav class="header__links" aria-label="Social and contact links">
+                <a href="https://linkedin.com/in/janesmith" target="_blank" rel="noopener noreferrer" class="header__link" aria-label="LinkedIn profile">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="mailto:jane.smith@example.com" class="header__link" aria-label="Email address">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Email
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Posters Section -->
+        <section class="section" aria-labelledby="posters-heading">
+            <h2 id="posters-heading" class="section__title">Posters</h2>
+            
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/poster1.pdf" target="_blank" rel="noopener noreferrer" class="item__link">Neural Networks for Accessibility</a>
+                </h3>
+                <p class="item__coauthors">With John Doe, Alice Johnson</p>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>This poster explores the application of neural networks to improve web accessibility features, focusing on automatic alt-text generation and semantic HTML enhancement.</p>
+                    </div>
+                </details>
+            </article>
+
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/poster2.pdf" target="_blank" rel="noopener noreferrer" class="item__link">Machine Learning in Healthcare</a>
+                </h3>
+                <p class="item__coauthors">With Bob Chen, Maria Garcia</p>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>An investigation into how machine learning models can assist in early disease detection and personalized treatment planning.</p>
+                    </div>
+                </details>
+            </article>
+        </section>
+
+        <!-- Talks Section -->
+        <section class="section" aria-labelledby="talks-heading">
+            <h2 id="talks-heading" class="section__title">Talks</h2>
+            
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/talk1" target="_blank" rel="noopener noreferrer" class="item__link">The Future of Semantic HTML</a>
+                </h3>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>A comprehensive talk discussing the evolution of semantic HTML elements and their role in modern web development, accessibility, and SEO.</p>
+                    </div>
+                </details>
+            </article>
+
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/talk2" target="_blank" rel="noopener noreferrer" class="item__link">Building Accessible Web Applications</a>
+                </h3>
+                <p class="item__coauthors">With Dr. Lisa Wang</p>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>Practical strategies and best practices for creating web applications that meet WCAG 2.2 standards and provide excellent user experiences for all users.</p>
+                    </div>
+                </details>
+            </article>
+        </section>
+
+        <!-- Articles Section -->
+        <section class="section" aria-labelledby="articles-heading">
+            <h2 id="articles-heading" class="section__title">Articles</h2>
+            
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/article1" target="_blank" rel="noopener noreferrer" class="item__link">CSS Variables: A Modern Approach</a>
+                </h3>
+                <p class="item__coauthors">With Tom Richards</p>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>This article covers the practical applications of CSS custom properties, including theme switching, dynamic styling, and maintaining design systems at scale.</p>
+                    </div>
+                </details>
+            </article>
+
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/article2" target="_blank" rel="noopener noreferrer" class="item__link">Responsive Design with Flexbox</a>
+                </h3>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>A deep dive into CSS Flexbox layout techniques for creating responsive, mobile-first web designs that adapt gracefully across all device sizes.</p>
+                    </div>
+                </details>
+            </article>
+        </section>
+
+        <!-- Resources Section -->
+        <section class="section" aria-labelledby="resources-heading">
+            <h2 id="resources-heading" class="section__title">Resources</h2>
+            
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/resource1" target="_blank" rel="noopener noreferrer" class="item__link">Web Accessibility Checklist</a>
+                </h3>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>A comprehensive checklist covering WCAG 2.2 Level AA compliance requirements, including color contrast, keyboard navigation, and semantic markup.</p>
+                    </div>
+                </details>
+            </article>
+
+            <article class="item">
+                <h3 class="item__title">
+                    <a href="https://example.com/resource2" target="_blank" rel="noopener noreferrer" class="item__link">GitHub Pages Deployment Guide</a>
+                </h3>
+                <p class="item__coauthors">With Sarah Miller</p>
+                <details class="item__details">
+                    <summary class="item__summary">Read more...</summary>
+                    <div class="item__abstract">
+                        <p>Step-by-step instructions for deploying static HTML, CSS, and JavaScript websites using GitHub Pages, including custom domain configuration.</p>
+                    </div>
+                </details>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
