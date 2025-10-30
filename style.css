@@ -996,7 +996,7 @@ a {
     border-radius: 2px;
 }
 
-.item__coauthors {
+.item__reference {
     font-size: var(--font-size-small);
     color: var(--color-text-secondary);
     margin-bottom: var(--spacing-sm);
